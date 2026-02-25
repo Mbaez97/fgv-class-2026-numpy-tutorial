@@ -10,7 +10,7 @@ def rgb2gray(rgb):
 
 
 def get_dog_image():
-    return rgb2gray(im.imread("images/numpy-tutorial/snoopy.jpeg")).astype(int)
+    return rgb2gray(im.imread("images/numpy-tutorial/doggo.jpeg")).astype(int)
 
 
 def plot_image(a):
